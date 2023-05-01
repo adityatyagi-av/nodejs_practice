@@ -1,0 +1,22 @@
+{
+  "name": "mern_practice",
+  "version": "1.0.0",
+  "description": "express practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityatyagi-av/practice_code.git"
+  },
+  "author": "Aditya Tyagi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityatyagi-av/practice_code/issues"
+  },
+  "homepage": "https://github.com/adityatyagi-av/practice_code#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
