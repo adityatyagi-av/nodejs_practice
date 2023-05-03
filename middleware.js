@@ -5,7 +5,11 @@ const authorize=require('./authorize')
 
 //req => middleware => res
 
-app.use([logger,authorize])
+//1. use vs route
+//2. options - our own /express /third party
+
+
+app.use([authorize,logger])
 app.get('/',(req,res)=>{
     res.send('Home')
 })
